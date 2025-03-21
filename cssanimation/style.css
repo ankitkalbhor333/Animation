@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: aliceblue;
+}
+html,body{
+    height: 100%;
+   width: 100%;
+background-color: black;
+
+}
+#box{
+    height:300px;
+    width: 300px;background-color: lightseagreen;
+    position: relative;
+    animation-name:animation1 ;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+}
+/* inital state and final state  */
+@keyframes animation1{
+    /* from{
+left: 0;
+background-color: brown;
+top: 0;
+    }to{
+        left: 60%;
+        background-color: rgb(255, 0, 0);
+ top: 50%;
+    } */
+    0%{
+        left: 0;
+        background-color: brown;
+        top: 0;
+        rotate: 0;
+            }
+          50%{
+            left:60%;
+            background-color: chartreuse;
+            top:0%;
+            rotate: 360deg;
+          }  
+            
+            100%{
+                left: 90%;
+                background-color: rgb(255, 0, 0);
+         top: 50%;
+         rotate: 720deg;
+            }
+
+}

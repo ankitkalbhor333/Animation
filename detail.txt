@@ -1,0 +1,10 @@
+gsap is a javascript library
+1.scrolltrigger
+2.swiper js
+
+gsap timeline and how to control it 
+gsap scrolltriggerpinning in scrolltriggersomeother pluggins
+project with gsap
+
+lecture -2
+scroll trigger  
